@@ -45,7 +45,7 @@ function release(context) {
       var imageId = docker.ensureStartImage(context.cwd);
       if (!imageId) return Promise.reject(new Error('Unable to find a start image'));
 
-      var containerId = child.execSync(`docker run -d ${imageId} tar cfvz /tmp/slug.tgz -C / --exclude=.git ./app`, {
+      var containerId = child.execSync(`docker run -d ${imageId} tar cfvz /tmp/slug.tgz -C / --exclude=./app`, {
         encoding: 'utf8'
       }).trim();
       child.execSync(`docker wait ${containerId}`);

@@ -1,5 +1,5 @@
 {
-  "name": "heroku-docker",
+  "name": "taniele-docker",
   "version": "0.0.24",
   "description": "Docker plugin for the Heroku CLI",
   "main": "index.js",

@@ -1,6 +1,6 @@
 {
-  "name": "taniele-docker",
-  "version": "0.0.24",
+  "name": "heroku-docker",
+  "version": "0.0.57",
   "description": "Docker plugin for the Heroku CLI",
   "main": "index.js",
   "repository": "https://github.com/heroku/heroku-docker",

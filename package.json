@@ -1,5 +1,5 @@
 {
-  "name": "heroku-docker",
+  "name": "taniele-docker",
   "version": "1.1.0",
   "topic": "docker",
   "description": "Use Docker to build and deploy Heroku apps",
